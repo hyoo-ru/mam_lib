@@ -9,7 +9,7 @@ namespace $ {
 			<input
 				type="text"
 				value={count}
-				onChange={e => count_set(1)}
+				onChange={e => count_set( Number( (e.target as HTMLInputElement).value ) )}
 			/>
 			<button onClick={()=> count_set(count + 1)}>+</button>
 		</div>
