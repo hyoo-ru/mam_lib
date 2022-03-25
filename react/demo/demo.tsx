@@ -1,3 +1,4 @@
+/** @jsx $lib_react_jsx */
 namespace $ {
 
 	export function $lib_react_demo() {
