@@ -1,6 +1,3 @@
-/// For install deps run manually: 
-///     npm install react @types/react react-dom @types/react-dom
-
 namespace $ {
 	$lib_react_env
 
