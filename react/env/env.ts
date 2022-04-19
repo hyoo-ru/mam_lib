@@ -1,1 +1,1 @@
-var process = process || { env: { NODE_ENV: 'development' } } as any
+var process: NodeJS.Process = { env: { NODE_ENV: 'development' } } as any
