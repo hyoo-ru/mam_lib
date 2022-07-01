@@ -25,6 +25,10 @@ namespace $ {
 
 			return wallet
 		}
+		// https://github.com/toncenter/examples/blob/main/deposits-single-wallet.js
+		// https://github.com/toncenter/tonweb/blob/master/src/contract/wallet/README.md
+		// https://ton.org/docs/#/howto/payment-processing
+		// https://github.com/toncenter/payment-channels-example/blob/main/index.js
 
 	}
 }
