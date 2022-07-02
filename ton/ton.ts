@@ -1,6 +1,6 @@
 namespace $ {
 
-	const { default: TonWeb }= require('tonweb') as typeof import('tonweb')
-	export const $lib_ton = TonWeb
+	const TonWeb = require('tonweb/dist/tonweb.js') as typeof import('tonweb')
 
+	export const $lib_ton = TonWeb.default
 }
