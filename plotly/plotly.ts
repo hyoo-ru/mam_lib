@@ -1,4 +1,3 @@
-
 namespace $ {
 
 	export class $lib_plotly extends $mol_object2 {
